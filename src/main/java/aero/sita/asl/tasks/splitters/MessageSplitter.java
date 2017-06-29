@@ -28,7 +28,7 @@ public class MessageSplitter {
     /**
      * Splits original and output messages and sets appropriate head attribute to route to appropriate channel.
      * 
-     * @param message {@link Message<String>} - incoming message (file)
+     * @param message {@link Message<?>} - incoming message (file)
      * @return {@link String} - target channel name
      */
     public List<Message<?>> splitFileMessage(Message<?> message) {
