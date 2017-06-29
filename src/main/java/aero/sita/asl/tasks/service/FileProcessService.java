@@ -25,7 +25,7 @@ public class FileProcessService {
     /**
      * Method to process the input message (file) and generate resulting message (file).
      * 
-     * @param message {@link Message<String>}
+     * @param message {@link Message<?>}
      * @return {@link Object}
      */
     public Object processMessage(Message<?> message) {
